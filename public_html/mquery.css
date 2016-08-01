@@ -1,0 +1,102 @@
+
+/* 
+    Created on : Mar 7, 2016, 2:00:56 PM
+    Author     : Jonathan
+*/
+
+@media screen and (max-width: 1500px) {
+    .all{
+        margin-left: 25%;
+        margin-right: 25%;
+    } 
+    
+    body {
+        background-size: 1800px 1300px;
+    } 
+}
+
+@media screen and (max-width: 1000px) {
+    .all{
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    
+    body {
+        background-size: 1800px 1200px;
+    } 
+}
+
+@media screen and (max-width: 850px) {
+    .all{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    
+    body {
+        background-size: 1800px 1100px;
+    }    
+}
+
+@media screen and (max-width: 480px) {
+    .all {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    
+    .inner {
+        margin-top: 0px;
+        border: none;    
+        background-color: white;
+        border-radius: 0px;
+        box-shadow: none;
+    }
+    
+    body {
+        background-image: none;   
+    }
+    
+    #title {
+        height: 60px;
+        width: 170px;
+        position: absolute;
+        top: 10px;
+        display: block;
+    
+    }
+    
+    .subtitle {
+        text-align: center;
+        position: absolute;
+        top:50px;
+    }
+    
+    .links {
+        margin-top: 120px;
+        margin-bottom: 15px;
+        margin-right: 0px;
+        text-align: center;
+    }
+    
+    .link {
+        margin: 0px 0px 10px 0px;
+        padding: 10px;
+        color: grey;
+        font-weight: bold;
+        text-decoration: none;
+        background-color: rgb(229,229,229);
+        font-size: 20pt;
+        text-align: center;
+        display: block;
+    
+    }
+
+    .link:hover {
+        color: black;
+        border-style: solid;
+        border-width: 1px;
+        margin-right: 0px;
+        margin-left: 0px;
+        border-color: black;
+        border-radius: 2px;
+    }    
+}
